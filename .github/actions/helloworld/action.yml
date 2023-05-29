@@ -1,0 +1,7 @@
+name: hellow-world-actions
+runs:
+  using: "composite"
+  steps:
+    - name: hellow
+      shell: bash
+      run: echo 'Hello world'
